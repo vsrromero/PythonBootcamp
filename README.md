@@ -7,7 +7,7 @@ You can find info about this course [here](https://www.udemy.com/share/103IHM3@y
 
 About: Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!  
   
-100 days, 1 hour per day, learn to build 1 project per day, this is how you master Python.
+100 days, 1 - 2 hours per day, learn to build 1 project per day, this is how you master Python.
 
 * New concepts and thechnologies add each day.
 
