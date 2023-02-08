@@ -20,3 +20,6 @@ About: Master Python by building 100 projects in 100 days. Learn data science, a
 * [Day 1](./day_1/)
     * [Instructions](./day_1/instructions.md)
     * [Solution - Code](./day_1/main.py)
+* [Day 2](./day_2/)
+    * [Instructions](./day_2/instructions.md)
+    * [Solution - Code](./day_2/main.py)
