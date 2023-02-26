@@ -1,7 +1,7 @@
 # 100 Days of Code: The Complete Python Pro Bootcamp for 2023
 
 ## This is a Udemy course for coding Python for 100 days
-You can find info about this course [here](https://www.udemy.com/share/103IHM3@y3v-NJ7mo-v3hzYNI1Nsb1ou5eWbgkq_b6zznCAk_Xpwf9sndCbaaARZgrZWS59asA==/)
+You can find more info about this course [here](https://www.udemy.com/share/103IHM3@y3v-NJ7mo-v3hzYNI1Nsb1ou5eWbgkq_b6zznCAk_Xpwf9sndCbaaARZgrZWS59asA==/)
 
 ### The course:
 
@@ -17,22 +17,27 @@ About: Master Python by building 100 projects in 100 days. Learn data science, a
 
 ### Days
 
-* [Day 1](./day_1/)
+* [Day 1 - Beginner](./day_1/)
     * [Instructions](./day_1/instructions.md)
     * [Solution - Code](./day_1/main.py)
-* [Day 2](./day_2/)
+* [Day 2 - Beginner](./day_2/)
     * [Instructions](./day_2/instructions.md)
     * [Solution - Code](./day_2/main.py)
-* [Day 3](./day_3/)
+* [Day 3 - Beginner](./day_3/)
     * [Instructions](./day_3/instructions.md)
     * [Solution - Code](./day_3/main.py)
-* [Day 4](./day_4/)
+* [Day 4 - Beginner](./day_4/)
     * [Day 4 - project 1 - treasure map](./day_4/treasure_map/)
         * [Instructions](./day_4/treasure_map/instructions.md)
         * [Solution - Code](./day_4/treasure_map/main.py)
     * [Day 4 - project 2 - Rock - Paper - Scissors](./day_4/rock_paper_scissors/)
         * [Instructions](./day_4/rock_paper_scissors/instructions.md)
         * [Solution - Code](./day_4/rock_paper_scissors/main.py)
-* [Day 5](./day_5/)
+* [Day 5 - Beginner](./day_5/)
     * [Instructions](./day_5/instructions.md)
-    * [Solution](./day_5/main.py)
+    * [Solution - Code](./day_5/main.py)  
+
+**- Day 6 done online -**
+* [Day 7 - Beginner](./day_7/)
+    * [Instructions](./day_7/instructions.md)
+    * [Solution - Code](./day_7/main.py)
