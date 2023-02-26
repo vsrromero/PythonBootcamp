@@ -44,3 +44,6 @@ Get a word from Random Word API and assign it to a variable called `chosen_word`
 Set `lives` equals to 6.
 * If `guess` is not a letter in the `chosen_word`, then reduce `lives` by 1. If lives goes down to 0 then the game should stop and it should print `You lose.`
 * Print the ASCII art from `stages` (got from the project resource) that corresponds to the current number of `lives` the user has remaining.
+
+
+[Project folder](../day_7/)
