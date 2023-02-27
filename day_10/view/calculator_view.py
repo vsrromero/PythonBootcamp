@@ -22,13 +22,14 @@ operations = {
 
 def calculator():
     num1 = float(input("What's the first number?: "))
-    for symbol in operations:
-        print(symbol)
+
+    for operator in operations:
+        print(operator)
     
     should_continue = True
     while should_continue:
-        operation_symbol = input("Pick an operation: ")
-        num2 = float(input("What's the next number?: "))
+        operation_symbol = input("Choose an operation: ")
+        num2 = float(input("What's the second number?: "))
         calculation_function = operations[operation_symbol]
         answer = calculation_function(num1, num2)
         print(f"{num1} {operation_symbol} {num2} = {answer}")
