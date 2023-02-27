@@ -1,4 +1,4 @@
-from bid_controller import add_bid
+from controller.bid_controller import add_bid
 import os
 
 def auction():
