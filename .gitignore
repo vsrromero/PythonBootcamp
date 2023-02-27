@@ -1,3 +1,5 @@
 _sandbox
 
 get-pip.py
+
+__pycache__/
