@@ -46,4 +46,6 @@ Set `lives` equals to 6.
 * Print the ASCII art from `stages` (got from the project resource) that corresponds to the current number of `lives` the user has remaining.
 
 
-[Project folder](../day_7/)
+[Project folder](../day_7/)  
+
+[Back to README](../../README.md)

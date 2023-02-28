@@ -35,4 +35,6 @@ Have a think about how you might write your program to make a player's answers l
 [You can also add your own ASCII art](https://ascii.co.uk/art). Just remember to add three single quotes `'''` at the start and at the end of your artwork to turn it into a multi-line string. 
 
 
-[Project folder](../day_3/)
+[Project folder](../day_3/)  
+
+[Back to README](../../README.md)

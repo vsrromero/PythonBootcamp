@@ -35,4 +35,6 @@ Each person should pay: $19.93
 2. [How to limit a float to two decimal places in Python](https://www.kite.com/python/answers/how-to-limit-a-float-to-two-decimal-places-in-python)
 
 
-[Project folder](../day_2/)
+[Project folder](../day_2/)  
+
+[Back to README](../../README.md)

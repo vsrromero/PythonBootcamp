@@ -10,4 +10,6 @@
   
 5. Make sure the input cursor shows on a new line.
 
-[Project folder](../day_1/)
+[Project folder](../day_1/)  
+
+[Back to README](../../README.md)

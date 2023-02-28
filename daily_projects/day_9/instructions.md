@@ -29,4 +29,6 @@ Use your knowledge of Python dictionaries and loops to solve this challenge.
 <img src='./imgs/flowchart.png' height='80%' width='80%'>  
     
     
-[Project folder](../day_9/)
+[Project folder](../day_9/)  
+
+[Back to README](../../README.md)
