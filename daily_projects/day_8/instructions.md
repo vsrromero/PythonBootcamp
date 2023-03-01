@@ -31,4 +31,6 @@ print output: "The decoded text is hello"
 
 * Check if the user wanted to encrypt or decrypt the message by checking the 'direction' variable. Then call the correct function based on that 'drection' variable. You should be able to test the code to encrypt *AND* decrypt a message.
 
-[Project folder](../day_8/)
+[Project folder](../day_8/)  
+
+[Back to README](../../README.md)
