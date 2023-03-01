@@ -9,3 +9,7 @@
 * Track the number of turns remaining.
 * If they run out of turns, provide feedback to the player. 
 * Include two different difficulty levels (e.g., 10 guesses in easy mode, only 5 guesses in hard mode).
+
+[Project folder](../day_12/)  
+
+[Back to README](../../README.md)
