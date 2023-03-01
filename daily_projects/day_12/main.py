@@ -2,17 +2,14 @@ from art import logo
 import random
 import os
 
-tries_remaining = 0
-
 def game_level(level):
-    global tries_remaining
     if level == 'hard':
-        tries_remaining = 5
+        return 5
     else:
-        tries_remaining = 10
+        return 10
 
-def number_guessing():
-    global tries_remaining
+def number_guessing(level):
+    tries_remaining = game_level(level)
     number_to_guess = random.randint(1,100)
     while tries_remaining > 0:
         user_try = int(input("Make a guess: "))
@@ -20,9 +17,9 @@ def number_guessing():
             os.system('cls')
             print(logo)
             print(f'Congratulations! You guessed the number {number_to_guess} with {tries_remaining} tries remaining.')
-            if input('Would you like to play again? "yes" or "no"').lower() == 'yes':
+            if input('Would you like to play again? "yes" or "no": ').lower() == 'yes':
                 game_start()
-                number_guessing()
+                number_guessing(level)
             return
         elif number_to_guess > user_try:
             os.system('cls')
@@ -39,9 +36,9 @@ def number_guessing():
     print(logo)
     print('You have no more tries')
     print(f'Sorry, you did not guess the number. The number was {number_to_guess}.')
-    if input('Would you like to play again? "yes" or "no"').lower() == 'yes':
+    if input('Would you like to play again? "yes" or "no": ').lower() == 'yes':
         game_start()
-        number_guessing()
+        number_guessing(level)
 
 def game_start():
     os.system('cls')
@@ -49,8 +46,8 @@ def game_start():
     print('Welcome to the Number Guessing Game!')
     print("I'm thinking of a number between 1 and 100")
     level = input('Choose a difficulty. Type "easy" or "hard": ')
-    game_level(level)
+    tries_remaining = game_level(level)
     print(f'you have {tries_remaining} tries remaining')
-    
+    number_guessing(level)
+
 game_start()
-number_guessing()
