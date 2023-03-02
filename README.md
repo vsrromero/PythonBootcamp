@@ -44,4 +44,9 @@ About: Master Python by building 100 projects in 100 days. Learn data science, a
 * [Day 11 - Beginner](./daily_projects/day_11/instructions.md)
     * [Solution - Code](/daily_projects./day_11/main.py)
 * [Day 12 - Beginner](./daily_projects/day_12/instructions.md)
-    * [Solution - Code](/daily_projects./day_12/main.py)
+    * [Solution - Code](/daily_projects./day_12/main.py)  
+
+**- Day 13 Lecture only -**
+
+* [Day 14 - Beginner](./daily_projects/day_14/instructions.md)
+    * [Solution - Code](/daily_projects./day_14/main.py)
