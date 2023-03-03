@@ -3,6 +3,11 @@ import time
 from menu import MENU
 from resources import resources
 
+# Define constants for max values
+MAX_WATER = 500   # ml
+MAX_MILK = 300   # ml
+MAX_COFFEE = 200  # g
+
 def get_resources(drink = ''):
     """
     Returns the resources available in the machine.
@@ -44,12 +49,12 @@ def update_resources(report = ''):
     resources['milk'] += int(input('How much milk would you like to add? (max 300ml) '))
     resources['coffee'] += int(input('How much coffee would you like to add? (max 200g) '))
 
-    if resources['water'] > 500:
-        resources['water'] = 500
-    if resources['milk'] > 300:
-        resources['milk'] = 300
-    if resources['coffee'] > 200:
-        resources['coffee'] = 200
+    if resources['water'] > MAX_WATER:
+        resources['water'] = MAX_WATER
+    if resources['milk'] > MAX_MILK:
+        resources['milk'] = MAX_MILK
+    if resources['coffee'] > MAX_COFFEE:
+        resources['coffee'] = MAX_COFFEE
 
     print(f'Water: {resources["water"]}ml')
     print(f'Milk: {resources["milk"]}ml')
