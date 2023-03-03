@@ -53,7 +53,7 @@ def check_founds(drink):
     elif total > MENU[drink]['cost']:
         change = round(total - MENU[drink]['cost'], 2)
         print(f'Here is ${change} in change.')
-        time.sleep(5)
+        time.sleep(3)
         os.system('cls')
         return True
 
