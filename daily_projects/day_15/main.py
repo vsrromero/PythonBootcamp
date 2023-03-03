@@ -4,6 +4,18 @@ from menu import MENU
 from resources import resources
 
 def get_resources(drink = ''):
+    """
+    Returns the resources available in the machine.
+
+    Args:
+    drink (str): The name of the drink to get ingredients for. Defaults to ''.
+
+    Returns:
+    A dictionary of the form {'water': int, 'milk': int, 'coffee': int} if drink is ''.
+    A dictionary of the form {'water': int, 'milk': int, 'coffee': int} for the specified drink if it is in MENU.
+    False otherwise.
+
+    """
             
     if drink == '':
         return resources
@@ -14,6 +26,13 @@ def get_resources(drink = ''):
         return False
     
 def update_resources(report = ''):
+    """
+    Updates the resources available in the machine.
+
+    Args:
+    report (str): If 'report', prints a report of the current resources. Defaults to ''.
+
+    """
     
     if report == 'report':
         print(f'Water: {resources["water"]}ml')
@@ -37,6 +56,17 @@ def update_resources(report = ''):
     print(f'Coffee: {resources["coffee"]}g')
 
 def check_resources(drink):
+    """
+    Checks if there are enough resources to make the specified drink.
+
+    Args:
+    drink (str): The name of the drink to make.
+
+    Returns:
+    False if there are not enough resources to make the drink.
+    None otherwise.
+
+    """
     drink_ingredients = get_resources(drink)
     resources_available = get_resources()
     #check if all resources are available
@@ -51,6 +81,13 @@ def check_resources(drink):
         resources_available[ingredient] -= drink_ingredients[ingredient]
 
 def make_a_drink(drink):
+    """
+    Makes a drink.
+
+    Args:
+    drink (str): The name of the drink to make.
+
+    """
 
     if check_resources(drink) == False:
         return
@@ -69,6 +106,17 @@ def make_a_drink(drink):
     return
 
 def check_founds(drink):
+    """
+    Checks if the user has enough money to buy the specified drink.
+
+    Args:
+    drink (str): The name of the drink to buy.
+
+    Returns:
+    False if the user does not have enough money.
+    True if the user has enough money and any change is returned.
+
+    """
     quarter = int(input('How many quarters? (25c): '))
     dime = int(input('How many dimes? (10c): '))
     nickel = int(input('How many nickels? (5c): '))
@@ -87,6 +135,13 @@ def check_founds(drink):
         return True
 
 def main_menu(drink):
+    """
+    Displays the main menu and handles user input.
+
+    Args:
+    drink (str): The name of the drink selected by the user.
+
+    """
     os.system('cls')
 
     # coffee machine report - print resources
@@ -103,7 +158,12 @@ def main_menu(drink):
 
     print(f'You chose: {drink}')
     make_a_drink(drink)
+
 def coffee_machine():
+    """
+    The main function that runs the coffee machine.
+
+    """
     os.system('cls')
     coffee_machine_status = True
     while coffee_machine_status:
