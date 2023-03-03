@@ -36,6 +36,19 @@ def update_resources(report = ''):
     print(f'Milk: {resources["milk"]}ml')
     print(f'Coffee: {resources["coffee"]}g')
 
+def deduct_resources(drink):
+    """
+    Deducts the ingredients of a drink from the resources.
+    
+    Args:
+        drink (str): The drink to be deducted from the resources.
+
+    """
+    drink_ingredients = get_resources(drink)
+    resources_available = get_resources()
+    for ingredient in drink_ingredients:
+        resources_available[ingredient] -= drink_ingredients[ingredient]
+
 def check_resources(drink):
     drink_ingredients = get_resources(drink)
     resources_available = get_resources()
@@ -43,12 +56,11 @@ def check_resources(drink):
     for ingredient in drink_ingredients:
         if drink_ingredients[ingredient] > resources_available[ingredient]:
             print(f'Sorry there is not enough {ingredient}')
-            time.sleep(5)
+            time.sleep(3)
             os.system('cls')
             return False
     #if all resources are available, deduct resources
-    for ingredient in drink_ingredients:
-        resources_available[ingredient] -= drink_ingredients[ingredient]
+    deduct_resources(drink)
 
 def make_a_drink(drink):
 
@@ -92,12 +104,12 @@ def main_menu(drink):
     # coffee machine report - print resources
     if drink == 'report':
         update_resources('report')
-        time.sleep(5)
+        time.sleep(3)
         os.system('cls')
         return
     elif drink == 'supply':
         update_resources()
-        time.sleep(5)
+        time.sleep(3)
         os.system('cls')
         return
 
