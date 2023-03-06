@@ -3,3 +3,9 @@ _sandbox
 get-pip.py
 
 __pycache__/
+
+node_modules/
+
+package-lock.json
+
+package.json
