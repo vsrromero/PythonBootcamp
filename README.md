@@ -56,3 +56,5 @@ From 1 - 2 hours per day, learn to build 1 project per day, this is how you mast
     * [Solution - Code](./daily_projects/day_16/main.py)
 * [Day 17 - Itermediate](./daily_projects/day_17/instructions.md)
     * [Solution - Code](./daily_projects/day_17/main.py)
+* [Day 18 - Itermediate](./daily_projects/day_18/instructions.md)
+    * [Solution - Code](./daily_projects/day_18/main.py)
