@@ -17,6 +17,8 @@ From 1 - 2 hours per day, learn to build 1 project per day, this is how you mast
 
 ### Days
 
+### *Beginner*
+
 * [Day 1 - Beginner](./daily_projects/day_1/instructions.md)
     * [Solution - Code](./daily_projects/day_1/main.py)
 * [Day 2 - Beginner](./daily_projects/day_2/instructions.md)
@@ -49,12 +51,19 @@ From 1 - 2 hours per day, learn to build 1 project per day, this is how you mast
 **- Day 13 Lecture only -**
 
 * [Day 14 - Beginner](./daily_projects/day_14/instructions.md)
-    * [Solution - Code](./daily_projects/day_14/main.py)
-* [Day 15 - Itermediate](./daily_projects/day_15/instructions.md)
+    * [Solution - Code](./daily_projects/day_14/main.py)  
+
+### *Itermediate*  
+  
+* [Day 15 - Itermediate -- *Virtual Coffee Machine*](./daily_projects/day_15/instructions.md)
     * [Solution - Code](./daily_projects/day_15/main.py)
-* [Day 16 - Itermediate](./daily_projects/day_16/instructions.md)
+* [Day 16 - Itermediate -- *Virtual Coffee Machine* - **OOP**](./daily_projects/day_16/instructions.md)
     * [Solution - Code](./daily_projects/day_16/main.py)
-* [Day 17 - Itermediate](./daily_projects/day_17/instructions.md)
+* [Day 17 - Itermediate -- *Quiz Game*](./daily_projects/day_17/instructions.md)
     * [Solution - Code](./daily_projects/day_17/main.py)
-* [Day 18 - Itermediate](./daily_projects/day_18/instructions.md)
+* [Day 18 - Itermediate -- *Hirst Paiting*](./daily_projects/day_18/instructions.md)
     * [Solution - Code](./daily_projects/day_18/main.py)
+* [Day 19 - Itermediate -- *Turtle Race*](./daily_projects/day_19/instructions.md)
+    * [Solution - Code](./daily_projects/day_19/main.py)
+* [Day 20 - Itermediate -- *Snake game*](./daily_projects/day_20/instructions.md)
+    * [Solution - Code](./daily_projects/day_20/main.py)
